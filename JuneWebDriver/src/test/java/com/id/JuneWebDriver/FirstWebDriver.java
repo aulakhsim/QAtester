@@ -9,7 +9,7 @@ public static void main(String[] args) {
 	System.setProperty("webdriver.chrome.driver","C:\\Users\\aulak\\Desktop\\chromedriver_win32 (6)\\chromedriver.exe");
 	WebDriver driver=new ChromeDriver();
 	
-	driver.get("www.yahoo.com");
+	driver.get("www.WellsFargo.com");
 	driver.manage().window().maximize();
 }
 
